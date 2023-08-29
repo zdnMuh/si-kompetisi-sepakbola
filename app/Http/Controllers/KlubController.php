@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Klub;
-use PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 use Illuminate\Http\Request;
 

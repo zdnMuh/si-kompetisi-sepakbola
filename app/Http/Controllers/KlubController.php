@@ -77,6 +77,6 @@ class KlubController extends Controller
         $clubs = Klub::all();
 
         $pdf = PDF::loadview('klub.klub-cetak', compact('clubs'));
-        return $pdf->download('laporan-klub.pdf');
+        return $pdf->download('laporan_klub.pdf');
     }
 }
